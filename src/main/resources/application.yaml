@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: digital-budget
+  profiles:
+    default: dev
+
+scheduled-tasks:
+  fetch-movies: "0 0 0/3 * * ?"

@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: postgres
+    password: 1234
+    url: jdbc:postgresql://localhost:5432/digital_budget
+    driver-class-name: org.postgresql.Driver
+  liquibase:
+    enabled: true
+
+# key is JWT token - use yours or mine with Ireland region (VPN)!
+
+movie-database:
+  key:
+  url: https://api.themoviedb.org/3/discover/movie

@@ -1,0 +1,24 @@
+2024-02-13 18:13:02 [scheduling-1] INFO  r.d.d.schedulingtasks.ScheduledTasks - Scheduler fetched 0 page of data
+2024-02-13 18:13:02 [scheduling-1] INFO  r.d.d.service.MovieService - Movies was saved in batch
+2024-02-13 18:13:03 [scheduling-1] INFO  r.d.d.schedulingtasks.ScheduledTasks - Scheduler fetched 1 page of data
+2024-02-13 18:13:03 [scheduling-1] INFO  r.d.d.service.MovieService - Movies was saved in batch
+2024-02-13 18:13:04 [scheduling-1] INFO  r.d.d.schedulingtasks.ScheduledTasks - Scheduler fetched 2 page of data
+2024-02-13 18:13:04 [scheduling-1] INFO  r.d.d.service.MovieService - Movies was saved in batch
+2024-02-13 18:13:04 [scheduling-1] INFO  r.d.d.schedulingtasks.ScheduledTasks - Scheduler fetched 3 page of data
+2024-02-13 18:13:04 [scheduling-1] INFO  r.d.d.service.MovieService - Movies was saved in batch
+2024-02-13 18:13:06 [scheduling-1] INFO  r.d.d.schedulingtasks.ScheduledTasks - Scheduler fetched 4 page of data
+2024-02-13 18:13:06 [scheduling-1] INFO  r.d.d.service.MovieService - Movies was saved in batch
+2024-02-13 18:13:30 [scheduling-1] INFO  r.d.d.schedulingtasks.ScheduledTasks - Scheduler fetched 0 page of data
+2024-02-13 18:13:30 [scheduling-1] INFO  r.d.d.service.MovieService - Movies was saved in batch
+2024-02-13 18:13:31 [scheduling-1] INFO  r.d.d.schedulingtasks.ScheduledTasks - Scheduler fetched 1 page of data
+2024-02-13 18:13:31 [scheduling-1] INFO  r.d.d.service.MovieService - Movies was saved in batch
+2024-02-13 18:13:31 [scheduling-1] INFO  r.d.d.schedulingtasks.ScheduledTasks - Scheduler fetched 2 page of data
+2024-02-13 18:13:31 [scheduling-1] INFO  r.d.d.service.MovieService - Movies was saved in batch
+2024-02-13 18:13:36 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-13 18:13:36 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-13 18:13:36 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-02-13 18:13:36 [http-nio-8080-exec-1] ERROR r.d.d.service.MovieService - No data available for the requested page and size!
+2024-02-13 18:13:42 [scheduling-1] INFO  r.d.d.schedulingtasks.ScheduledTasks - Scheduler fetched 3 page of data
+2024-02-13 18:13:42 [scheduling-1] INFO  r.d.d.service.MovieService - Movies was saved in batch
+2024-02-13 18:13:43 [scheduling-1] INFO  r.d.d.schedulingtasks.ScheduledTasks - Scheduler fetched 4 page of data
+2024-02-13 18:13:43 [scheduling-1] INFO  r.d.d.service.MovieService - Movies was saved in batch
