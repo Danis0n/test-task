@@ -51,7 +51,7 @@ public class ValidationHandler extends ResponseEntityExceptionHandler {
 
     @ResponseBody
     @ExceptionHandler(UserExistsException.class)
-    public ResponseEntity<Object> userExistException(UserExistsException exception) {
+    public ResponseEntity<Object> userExistHandler(UserExistsException exception) {
         ErrorMessage errorMessage = ErrorMessage.builder()
                 .status(HttpStatus.BAD_REQUEST)
                 .error(exception.getMessage())
@@ -61,7 +61,7 @@ public class ValidationHandler extends ResponseEntityExceptionHandler {
 
     @ResponseBody
     @ExceptionHandler(NotFoundException.class)
-    public ResponseEntity<Object> notFoundException(NotFoundException exception) {
+    public ResponseEntity<Object> notFoundHandler(NotFoundException exception) {
         ErrorMessage errorMessage = ErrorMessage.builder()
                 .status(HttpStatus.NOT_FOUND)
                 .error(exception.getMessage())

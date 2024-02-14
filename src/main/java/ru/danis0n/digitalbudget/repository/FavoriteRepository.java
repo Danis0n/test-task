@@ -16,6 +16,5 @@ public interface FavoriteRepository extends JpaRepository<Favorite, MovieUserKey
     @Query("SELECT m FROM Movie m WHERE m.id NOT IN (SELECT f.movie.id FROM Favorite f WHERE f.user.id = :userId)")
     List<Movie> findMoviesNotInUserFavorites(@Param("userId") Long userId, Pageable pageable);
     List<Favorite> findFavoriteByUser_Id(Long userId);
-    List<Favorite> findFavoriteByUser_Id(Long userId, Pageable pageable);
 
 }

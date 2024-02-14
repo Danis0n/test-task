@@ -27,8 +27,8 @@ public class MovieDiscoverClient {
 
     public List<MovieDto> fetchMovies(int page) {
         HttpHeaders headers = new HttpHeaders();
-        headers.set("Authorization", BEARER + API_KEY);
-        headers.set("Content-Type", "application/json");
+        headers.set(HttpHeaders.AUTHORIZATION, BEARER + API_KEY);
+        headers.set(HttpHeaders.CONTENT_TYPE, "application/json");
         HttpEntity<String> entity = new HttpEntity<>("parameters", headers);
 
         String url = URL + "?page=" + page;
